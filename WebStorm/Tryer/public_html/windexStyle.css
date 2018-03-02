@@ -1,0 +1,59 @@
+body {
+    font-family: "Courier New";
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+h1 {
+    color: forestgreen;
+    background-color: cadetblue;
+    text-transform: uppercase;
+}
+h2 {
+    color: magenta;
+    background-color: aliceblue;
+}
+p {
+    color: lightgreen;
+    background-color: darkcyan;
+}
+p b {
+    color: tomato !important;
+}
+.test {
+    border: 1px solid maroon;
+    background-color: darkcyan;
+    padding: inherit;
+    background-color: hsla(350,99%,50%,0.3); /* hue 0-360, saturation percent, lightness %, alpha 0-1*/
+}
+.main {
+    border: 0.1cm solid gray;
+    background-color: mediumseagreen;
+    background-color: hsla(30,99%,50%,0.4);
+    padding: inherit;
+}
+.homie {
+    line-height: 2cm;
+    letter-spacing: 1cm;
+    text-shadow: -2px -3px darkslategrey;
+}
+a:link {
+    color: deeppink;
+    text-decoration: none;}
+a:visited {
+    color: black;}
+a:hover {
+    color: deeppink;
+    text-decoration: underline;}
+a:active {
+    color: darkcyan;}
+div.box {
+    height: 300px;
+    width: 300px;
+    background-color: hotpink;
+
+}
+p {
+    height: 75%;
+    width: 75%;
+
+}
